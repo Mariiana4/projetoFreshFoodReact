@@ -1,0 +1,37 @@
+.container02{
+    align-items: center;
+    background-image: url('/public/imagens/cabecalho/parte02/fudo_container02.jpg');
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.campo-pesquisa{
+    border-radius: 50px;
+    font-size: 20px;
+    height: 35px;
+    padding: 10px 30px;
+    width: 80%;
+}
+
+  
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    white-space: nowrap;
+  }
+  
+
+.icone-lupa{
+    position: absolute;
+    right: 10%;
+    width: 20px;
+}
