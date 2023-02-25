@@ -10,6 +10,7 @@
 
 .campo-pesquisa{
     border-radius: 50px;
+    border: none;
     font-size: 20px;
     height: 35px;
     padding: 10px 30px;
