@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Container de todos os cards */
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 25px;
+    width: 100%;
+}
+
+/* Card */
+.card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.20) 10px 9px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 35px;
+    width: 22%;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+/* Imagem - parte 01*/
+.image_card{
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Informações - parte 02 */
+.container_informacoes{
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 1º linha */
+.tag_icone-fav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-heart{
+    color: #408C37;
+    font-size: 1.5rem;
+}
+
+/* Tag identificação */
+.tag{
+    background: #408C37;
+    border-radius: 23px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* Ícone de coração */
+.icone-fav{
+    height: 100%;
+    width: 10%;
+}
+
+/* Linha 2 - Nome da receita */
+.nome-receita{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Linha 3 - ícones e descrição */
+
+/* Container dos ícones */
+.container_icones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Container dos icones com a descrição */
+.icone_descricao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Ícone */
+.iconeCard{
+    height: 100%;
+    transform: scale(0.7);
+
+}
+
+#linha01,
+#linha02{
+    height: 100%;
+}
+
+.porcao{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: #FC4040;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+ul:has(li:hover) li:not(:hover) {
+    opacity: .6;
+    scale: .98;
+    transition: .5s;
+  }
+
+/* Responsividade: laptop */
+@media(max-width:1500px){
+    .container_informacoes{
+        height: 200px;
+    }
+}
+
+@media(max-width:1095px){
+    .container_cards{
+        flex-wrap: wrap;
+    }
+    .container_informacoes{
+        height: 215px;
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 55px;
+        width: 40%;
+    }
+    
+}
+
+/* Responsividade: tablet */
+@media (max-width:841px){
+    .container_informacoes{
+        height: 240px;
+        width: 100%;
+    }
+}
+
+@media (max-width:625px){
+    .container_informacoes{
+        height: 270px;
+        width: 100%;
+    }
+}
+
+/* Responsividade: celular */
+
+@media (max-width:610px){
+    .container_cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .container_informacoes{
+        height: 230px;
+    }
+}
+

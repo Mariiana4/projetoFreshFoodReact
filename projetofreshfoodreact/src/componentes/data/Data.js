@@ -20,7 +20,7 @@ export const Receitas = [
         "tagCardReceitas": "Zero lactose",
         "nomeCardReceitas": "Pão de aveia",
         "tempoCardReceitas": "1 hora",
-        "dificuldadeCardReceitas": "difícil",
+        "dificuldadeCardReceitas": "difícil",   
         "porcaoCardReceitas": "15"
     },
     {

@@ -15,12 +15,12 @@ function App() {
         {
           Receitas.map((x,i) =>(
             <CardDeReceitas
-            imagemCardReceitas={x.imagem} 
-            tagCardReceitas={x.tag} 
-            nomeCardReceitas={x.nome} 
-            tempoCardReceitas={x.tempo} 
-            dificuldadeCardReceitas={x.dificuldade} 
-            porcaoCardReceitas={x.porcao}/>
+            imagemCardReceitas={x.imagemCardReceitas} 
+            tagCardReceitas={x.tagCardReceitas} 
+            nomeCardReceitas={x.nomeCardReceitas} 
+            tempoCardReceitas={x.tempoCardReceitas} 
+            dificuldadeCardReceitas={x.dificuldadeCardReceitas} 
+            porcaoCardReceitas={x.porcaoCardReceitas}/>
           ))
         }
       </ul>
