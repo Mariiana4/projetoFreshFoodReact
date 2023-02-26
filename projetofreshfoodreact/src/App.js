@@ -5,6 +5,8 @@ import CabecalhoParte02 from './componentes/cabecalho/parte02/CabecalhoParte02';
 import CardDeReceitas from './componentes/cardReceitas/CardDeReceitas';
 import {Receitas} from './componentes/data/Data';
 
+import Rodape from './componentes/rodape/Rodape';
+
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           ))
         }
       </ul>
+
+      <Rodape/>
     </div>
   );
 }
