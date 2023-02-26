@@ -34,7 +34,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
                     <div className="icone_descricao">
                         <p className="descricao porcao">{porcaoCardReceitas}</p>
                         <img className="iconeCard" src="/imagens/cardReceitas/porcao_icone.svg" alt=""/>
-                        <p className="descricao">Porção</p>
+                        <p className="descricao">Porções</p>
                     </div>
                 </div>
             </div>
