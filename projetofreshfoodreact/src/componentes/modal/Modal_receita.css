@@ -1,0 +1,253 @@
+/* body{
+    background: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Container das informações do modal */
+.modal-receitas{
+    background: #fff;
+    border-radius: 45px 45px 25px 25px;;
+    width: 50%;
+    box-shadow: 0px 12px 25px 0px #00000050;
+}
+
+
+/*----------- CABEÇALHO DO MODAL------------------ */
+
+/* Container do cabecalho do modal */
+.cabecalho_modal-receitas{
+    position: relative;
+}
+
+/* Imagem da receita*/
+.imagem_cabecalho_modal-receitas{
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px 45px 0 0;
+}
+
+/* X para fechar modal */
+.botao-fechar_cabecalho_modal-receitas{
+    position: absolute;
+    border: none;
+    font-size: 30px;
+    background: none;
+    cursor: pointer;
+    color: #717171;
+    right: 30px;
+    top: 10px;
+}
+
+/* Tag de identificação do tipo de receita */
+.tag-tipoReceita_cabecalho_modal-receitas{
+    position: absolute;
+    top: 105px;
+    left: 25px;
+    background: green;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 21px;
+    font-weight: 500;
+}
+
+/*----------- PARTE PRINCIPAL DO MODAL------------------ */
+
+/* Container com título, preço, botao de adicionar a cesta, titulo da lista de ingredientes e lista de ingredientes */
+.conteudo_modal-receitas{
+    margin: 25px 20px 0 25px;
+}
+
+/* Título */
+.nome-receita_conteudo_modal-receitas{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Container com preço e botão de adicionar a cesta */
+.preco_botao-adicionar_conteudo_modal-receitas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Preço */
+.preco_conteudo_modal-receitas{
+    font-size: 25px;
+}
+
+/* Botão de adicionar a cesta */
+.botao-adicionar_conteudo_modal-receitas{
+    border: none;
+    background: #FBA16C;
+    font-size: 17px;
+    width: 22%;
+    padding: 5px;
+    border-radius: 32px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.botao-adicionar_conteudo_modal-receitas:hover{
+    background: #FE4617;
+}
+
+/* Container com titulo da lista de ingredientes e a lista */
+.titulo_lista-ingredientes_conteudo_modal-receitas{
+    margin-top: 10px;
+}
+
+/* Título da lista de receitas */
+.titulo_conteudo_modal-receitas{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+/* Lista de ingredientes */
+.lista-ingredientes_conteudo_modal-receitas{
+    width: 90%;
+    margin: 15px auto;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Itens da lista de ingredientes */
+.item_lista-ingredientes_conteudo_modal-receitas{
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+/*----------- RODAPÉ DO MODAL------------------ */
+
+/* Container com os ícones e decsrição de tempo, dificuldade e porções */
+.tempo-dificuldade-porcao_modal-receitas{
+    display: flex;
+    width: 100%;
+    margin: 25px auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Container de todos os ícones e seus textos*/
+.icones_modal-receitas{
+    border-right: 1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ícone e texto individual */
+.icone_modal-receitas{
+    transform: scale(0.9);
+}
+
+#porcao{
+    border: none;
+}
+
+/* Indicador de quantidade da sessão de porções */
+.porcao_modal-receitas{
+    position: absolute;
+    background: #FE4617;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+    top: 2px;
+    right: 75px;
+}
+
+
+/* Celular */
+@media(max-width: 425px){
+    .modal-receitas{
+        width: 90%;
+    }
+
+    .tag-tipoReceita_cabecalho_modal-receitas{
+        font-size: 13px;
+        left: 12px;
+    }
+
+    .nome-receita_conteudo_modal-receitas{
+        font-size: 20px;
+    }
+
+    .preco_botao-adicionar_conteudo_modal-receitas{
+        margin: 25px 0;
+    }
+
+    .preco_conteudo_modal-receitas{
+        font-size: 20px;
+    }
+
+    .botao-adicionar_conteudo_modal-receitas{
+        width: 40%;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .titulo_conteudo_modal-receitas{
+        font-size: 16px;
+    }
+
+    .lista-ingredientes_conteudo_modal-receitas{
+        overflow-y: auto;
+        flex-wrap: nowrap;
+    }
+
+    .tempo-dificuldade-porcao_modal-receitas{
+        transform: scale(0.8);  
+    }
+
+    .porcao_modal-receitas {
+        right: 17px;
+    }
+}
+
+/* Tablet */
+@media(max-width:768px){
+    .nome-receita_conteudo_modal-receitas{
+        font-size: 25px;
+    }
+
+    .botao-adicionar_conteudo_modal-receitas{
+        width: 35%;
+    }
+
+    .lista-ingredientes_conteudo_modal-receitas{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .porcao_modal-receitas{
+        right: 30px;
+    }
+
+}
+
+/* Desktop */
+@media(max-width: 1024px){
+    .porcao_modal-receitas{
+        right: 15px;
+    }
+}
+

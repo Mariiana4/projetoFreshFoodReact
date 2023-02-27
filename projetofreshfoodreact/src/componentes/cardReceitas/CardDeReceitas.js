@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal_receita from '../modal/Modal_receita'
 import './CardDeReceitas.css'
 
-function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas}) {
+function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas, itensCardReceitas}) {
+
+    const [modalAberta, setModalAberta]= useState(false)
   return (
     <>
-        <li className="card">
+        <li className="card" onClick={()=> setModalAberta(true)}>
             <img className='image_card' src={imagemCardReceitas} />
 
             <div className="container_informacoes">
@@ -40,6 +43,11 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
             </div>
         
         </li>
+
+        {modalAberta && <Modal_receita aoClicarBotaoFechar={() => setModalAberta(false)}
+        itensCardReceitas={itensCardReceitas}
+        />}
+
     </>
   )
 }

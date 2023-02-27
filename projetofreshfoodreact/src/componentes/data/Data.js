@@ -5,7 +5,18 @@ export const Receitas = [
         "nomeCardReceitas": "Salada de atum",
         "tempoCardReceitas": "40 min",
         "dificuldadeCardReceitas": "Médio",
-        "porcaoCardReceitas": "5"
+        "porcaoCardReceitas": "5",
+        "preco": "1050",
+        "itens": [
+            "1 maço de alface americana",
+            "1 maço de alface crespa",
+            "1 xícara de chá de tomate-cereja",
+            "1 xícara de chá de palmito pupunha",
+            "1 manga picada",
+            "Sal",
+            "azeite",
+            "orégano"
+        ]
     },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
@@ -13,7 +24,18 @@ export const Receitas = [
         "nomeCardReceitas": "Torta de morango",
         "tempoCardReceitas": "20 min",
         "dificuldadeCardReceitas": "Fácil",
-        "porcaoCardReceitas": "8"
+        "porcaoCardReceitas": "8",
+        "preco": "1050",
+        "itens": [
+            "1 maço de alface americana",
+            "1 maço de alface crespa",
+            "1 xícara de chá de tomate-cereja",
+            "1 xícara de chá de palmito pupunha",
+            "1 manga picada",
+            "Sal",
+            "azeite",
+            "orégano"
+        ]
     },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receita.jpg",
@@ -21,7 +43,18 @@ export const Receitas = [
         "nomeCardReceitas": "Pão de aveia",
         "tempoCardReceitas": "1 hora",
         "dificuldadeCardReceitas": "difícil",   
-        "porcaoCardReceitas": "15"
+        "porcaoCardReceitas": "15",
+        "preco": "1050",
+        "itens": [
+            "1 maço de alface americana",
+            "1 maço de alface crespa",
+            "1 xícara de chá de tomate-cereja",
+            "1 xícara de chá de palmito pupunha",
+            "1 manga picada",
+            "Sal",
+            "azeite",
+            "orégano"
+        ]
     },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receita.jpg",
@@ -29,7 +62,18 @@ export const Receitas = [
         "nomeCardReceitas": "Pão de aveia",
         "tempoCardReceitas": "1 hora",
         "dificuldadeCardReceitas": "difícil",
-        "porcaoCardReceitas": "15"
+        "porcaoCardReceitas": "15",
+        "preco": "1050",
+        "itens": [
+            "1 maço de alface americana",
+            "1 maço de alface crespa",
+            "1 xícara de chá de tomate-cereja",
+            "1 xícara de chá de palmito pupunha",
+            "1 manga picada",
+            "Sal",
+            "azeite",
+            "orégano"
+        ]
     },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
@@ -37,6 +81,17 @@ export const Receitas = [
         "nomeCardReceitas": "Torta de morango",
         "tempoCardReceitas": "20 min",
         "dificuldadeCardReceitas": "Fácil",
-        "porcaoCardReceitas": "8"
+        "porcaoCardReceitas": "8",
+        "preco": "1050",
+        "itens": [
+            "1 maço de alface americana",
+            "1 maço de alface crespa",
+            "1 xícara de chá de tomate-cereja",
+            "1 xícara de chá de palmito pupunha",
+            "1 manga picada",
+            "Sal",
+            "azeite",
+            "orégano"
+        ]
     }
 ]
