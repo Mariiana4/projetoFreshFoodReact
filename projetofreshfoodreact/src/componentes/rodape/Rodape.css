@@ -29,10 +29,11 @@ body{
 .titulo{
     font-weight: 700;
     text-align: center;
+    color: #0D5C2A;
 }
 
 .linha{
-    border-color: #FE4617;
+    border-color: #0D5C2A;
     margin:30px auto;
     width: 60%;
 }
@@ -43,6 +44,7 @@ body{
     text-align: center;
     width: 90%;
     font-size: 17px;
+    color: #0D5C2A;
 }
 
 .container_icone-redes-sociais{

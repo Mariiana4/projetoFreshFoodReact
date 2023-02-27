@@ -4,7 +4,7 @@ import './CardDeReceitas.css'
 
 function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas, itensCardReceitas}) {
 
-    const [modalAberta, setModalAberta]= useState(false)
+  const [modalAberta, setModalAberta]= useState(false)
   return (
     <>
         <li className="card" onClick={()=> setModalAberta(true)}>
@@ -41,7 +41,6 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
                     </div>
                 </div>
             </div>
-        
         </li>
 
         {modalAberta && <Modal_receita aoClicarBotaoFechar={() => setModalAberta(false)}

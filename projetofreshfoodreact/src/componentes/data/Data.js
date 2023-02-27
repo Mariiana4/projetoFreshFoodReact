@@ -6,8 +6,8 @@ export const Receitas = [
         "tempoCardReceitas": "40 min",
         "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "5",
-        "preco": "1050",
-        "itens": [
+        "precoCardReceitas": "1050",
+        "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
             "1 xícara de chá de tomate-cereja",
@@ -25,8 +25,8 @@ export const Receitas = [
         "tempoCardReceitas": "20 min",
         "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "8",
-        "preco": "1050",
-        "itens": [
+        "precoCardReceitas": "1050",
+        "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
             "1 xícara de chá de tomate-cereja",
@@ -44,8 +44,8 @@ export const Receitas = [
         "tempoCardReceitas": "1 hora",
         "dificuldadeCardReceitas": "difícil",   
         "porcaoCardReceitas": "15",
-        "preco": "1050",
-        "itens": [
+        "precoCardReceitas": "1050",
+        "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
             "1 xícara de chá de tomate-cereja",
@@ -63,8 +63,8 @@ export const Receitas = [
         "tempoCardReceitas": "1 hora",
         "dificuldadeCardReceitas": "difícil",
         "porcaoCardReceitas": "15",
-        "preco": "1050",
-        "itens": [
+        "precoCardReceitas": "1050",
+        "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
             "1 xícara de chá de tomate-cereja",
@@ -82,8 +82,8 @@ export const Receitas = [
         "tempoCardReceitas": "20 min",
         "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "8",
-        "preco": "1050",
-        "itens": [
+        "precoCardReceitas": "1050",
+        "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
             "1 xícara de chá de tomate-cereja",
