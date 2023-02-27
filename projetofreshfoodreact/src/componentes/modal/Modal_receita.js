@@ -24,7 +24,8 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
             <section className="titulo_lista-ingredientes_conteudo_modal-receitas">
                 <h3 className="titulo_conteudo_modal-receitas">Esta receita contém:</h3>
                 <ul className="lista-ingredientes_conteudo_modal-receitas">
-                    {
+                    {itensCardReceitas}
+                    {/* {
                         itensCardReceitas.map((x,i) =>(
                             <Modal_receita
                             imagemCardReceitas={x.imagemCardReceitas} 
@@ -36,7 +37,7 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
                             precoCardReceitas={x.precoCardReceitas}
                             itensCardReceitas={x.itensCardReceitas}/>
                         ))
-                    }
+                    } */}
                     
                     <li className="item_lista-ingredientes_conteudo_modal-receitas">{itensCardReceitas}</li>
                 </ul>
@@ -66,4 +67,4 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
   )
 }
 
-export default Modal_receita
+export default Modal_receita;

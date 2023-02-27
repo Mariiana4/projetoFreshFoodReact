@@ -6,6 +6,8 @@ import CabecalhoParte02 from './componentes/cabecalho/parte02/CabecalhoParte02';
 import CardDeReceitas from './componentes/cardReceitas/CardDeReceitas';
 import {Receitas} from './componentes/data/Data';
 
+import Modal_receita from './componentes/modal/Modal_receita';
+
 import Rodape from './componentes/rodape/Rodape';
 
 
@@ -38,7 +40,7 @@ function App() {
           ))
         }
       </ul>
-
+      
       <Rodape/>
     </div>
   );
