@@ -135,7 +135,7 @@ body{
     color: #fff;
 }
 
-ul:has(li:hover) li:not(:hover) {
+ul:has(.card:hover) .card:not(:hover) {
     opacity: .6;
     scale: .98;
     transition: .5s;

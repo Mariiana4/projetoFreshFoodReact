@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-
 import CabecalhoParte01 from './componentes/cabecalho/parte01/CabecalhoParte01';
 import CardDeReceitas from './componentes/cardReceitas/CardDeReceitas';
 import {Receitas} from './componentes/data/Data';
-
 import Rodape from './componentes/rodape/Rodape';
 import CabecalhoParte02 from './componentes/cabecalho/parte02/CabecalhoParte02';
 
