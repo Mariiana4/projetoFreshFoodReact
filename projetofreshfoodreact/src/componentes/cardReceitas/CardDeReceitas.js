@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Modal_receita from '../modal/Modal_receita'
 import './CardDeReceitas.css'
 
-function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas, itensCardReceitas}) {
+function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas, itensCardReceitas,precoCardReceitas}) {
 
   const [modalAberta, setModalAberta]= useState(false)
   return (
@@ -50,6 +50,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
                                        tempoCardReceitas={tempoCardReceitas}
                                        dificuldadeCardReceitas={dificuldadeCardReceitas}
                                        porcaoCardReceitas={porcaoCardReceitas}
+                                       precoCardReceitas={precoCardReceitas}
         />}
 
     </>
