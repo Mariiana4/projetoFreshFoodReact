@@ -82,12 +82,11 @@
 .botao-adicionar_conteudo_modal-receitas{
     border: none;
     background: #FBA16C;
-    font-size: 15px;
+    font-size: 17px;
     width: 22%;
     padding: 5px;
     border-radius: 32px;
     color: #fff;
-    font-weight: bold;
     cursor: pointer;
     transition: all 0.5s;
 }
