@@ -6,7 +6,7 @@ export const Receitas = [
         "tempoCardReceitas": "40 min",
         "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "5",
-        "precoCardReceitas": "1050",
+        "precoCardReceitas": "10,50",
         "itensCardReceitas": [
             "1 maço de alface americana",
             "1 maço de alface crespa",
