@@ -15,7 +15,9 @@ export const Receitas = [
             "1 manga picada",
             "Sal",
             "azeite",
-            "orégano"
+            "orégano",
+            "3 batatas",
+            "4 tomates"
         ]
     },
     {

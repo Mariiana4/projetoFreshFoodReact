@@ -28,7 +28,7 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
                             <li key={i}>{x}</li>
                         ))
                     }
-                    <li className="item_lista-ingredientes_conteudo_modal-receitas">{itensCardReceitas}</li>
+                
                 </ul>
             </section>
         </main>
