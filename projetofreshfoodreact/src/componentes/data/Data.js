@@ -14,8 +14,8 @@ export const Receitas = [
             "1 xícara de chá de palmito pupunha",
             "1 manga picada",
             "Sal",
-            "azeite",
-            "orégano",
+            "Azeite",
+            "Orégano",
             "3 batatas",
             "4 tomates"
         ]
