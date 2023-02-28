@@ -5,6 +5,7 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
   
     return (
     <>
+    <div className='container_modal-receitas'>
       <div className="modal-receitas">
 
         <header className="cabecalho_modal-receitas">
@@ -52,6 +53,7 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
         </footer>
 
       </div>
+    </div>
     </>
   )
 }
