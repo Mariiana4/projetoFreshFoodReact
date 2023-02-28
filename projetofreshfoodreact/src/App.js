@@ -34,7 +34,7 @@ function App() {
             dificuldadeCardReceitas={x.dificuldadeCardReceitas} 
             porcaoCardReceitas={x.porcaoCardReceitas}
             itensCardReceitas={x.itensCardReceitas} 
-            precoCardReceitas={x.precoCardReceitas} />
+            precoCardReceitas={x.precoCardReceitas}/>
           ))
         }
       </ul>
