@@ -9,7 +9,6 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
     <>
         <li className="card" onClick={()=> setModalAberta(true)}>
             <img className='image_card' src={imagemCardReceitas} />
-
             <div className="container_informacoes">
                 <div className="tag_icone-fav">
                     <p className="tag">{tagCardReceitas}</p>
@@ -44,7 +43,13 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
         </li>
 
         {modalAberta && <Modal_receita aoClicarBotaoFechar={() => setModalAberta(false)}
-        itensCardReceitas={itensCardReceitas}
+                                       itensCardReceitas={itensCardReceitas}
+                                       nomeCardReceitas={nomeCardReceitas}
+                                       imagemCardReceitas={imagemCardReceitas}
+                                       tagCardReceitas={tagCardReceitas}
+                                       tempoCardReceitas={tempoCardReceitas}
+                                       dificuldadeCardReceitas={dificuldadeCardReceitas}
+                                       porcaoCardReceitas={porcaoCardReceitas}
         />}
 
     </>

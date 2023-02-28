@@ -24,21 +24,10 @@ function Modal_receita({aoClicarBotaoFechar, imagemCardReceitas, tagCardReceitas
             <section className="titulo_lista-ingredientes_conteudo_modal-receitas">
                 <h3 className="titulo_conteudo_modal-receitas">Esta receita contém:</h3>
                 <ul className="lista-ingredientes_conteudo_modal-receitas">
-                    {itensCardReceitas}
-                    {/* {
-                        itensCardReceitas.map((x,i) =>(
-                            <Modal_receita
-                            imagemCardReceitas={x.imagemCardReceitas} 
-                            tagCardReceitas={x.tagCardReceitas} 
-                            nomeCardReceitas={x.nomeCardReceitas} 
-                            tempoCardReceitas={x.tempoCardReceitas} 
-                            dificuldadeCardReceitas={x.dificuldadeCardReceitas} 
-                            porcaoCardReceitas={x.porcaoCardReceitas}
-                            precoCardReceitas={x.precoCardReceitas}
-                            itensCardReceitas={x.itensCardReceitas}/>
+                    {itensCardReceitas.map((x,i) =>(
+                            <li key={i}>{x}</li>
                         ))
-                    } */}
-                    
+                    }
                     <li className="item_lista-ingredientes_conteudo_modal-receitas">{itensCardReceitas}</li>
                 </ul>
             </section>
