@@ -11,8 +11,8 @@
 .campo-pesquisa{
     border-radius: 50px;
     border: none;
-    font-size: 20px;
-    height: 50px;
+    font-size: 16px;
+    height: 40px;
     padding: 10px 30px;
     width: 80%;
 }
@@ -34,5 +34,5 @@
 .icone-lupa{
     position: absolute;
     right: 12%;
-    width: 20px;
+    width: 16   px;
 }

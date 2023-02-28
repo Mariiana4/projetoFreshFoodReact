@@ -6,6 +6,7 @@ import CardDeReceitas from './componentes/cardReceitas/CardDeReceitas';
 import {Receitas} from './componentes/data/Data';
 
 import Rodape from './componentes/rodape/Rodape';
+import CabecalhoParte02 from './componentes/cabecalho/parte02/CabecalhoParte02';
 
 
 function App() {
