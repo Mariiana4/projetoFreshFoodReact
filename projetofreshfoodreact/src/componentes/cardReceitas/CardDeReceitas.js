@@ -5,6 +5,8 @@ import './CardDeReceitas.css'
 function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, tempoCardReceitas, dificuldadeCardReceitas, porcaoCardReceitas, itensCardReceitas,precoCardReceitas}) {
 
   const [modalAberta, setModalAberta]= useState(false)
+  const [IsFavorite, setIsFavorite]= useState(false)
+
   return (
     <>
         <li className="card" onClick={()=> setModalAberta(true)}>
@@ -12,7 +14,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
             <div className="container_informacoes">
                 <div className="tag_icone-fav">
                     <p className="tag">{tagCardReceitas}</p>
-                    <i className="fa-regular fa-heart"></i>
+                    {!IsFavorite && <i className="fa-regular fa-heart" onClick={() => setIsFavorite(true)}></i>}
                 </div>
 
                 <h2 className="nome-receita">{nomeCardReceitas}</h2>
