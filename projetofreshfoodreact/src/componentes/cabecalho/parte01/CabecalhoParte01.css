@@ -8,6 +8,8 @@
     align-items: center;
     display: flex;
     margin-right: 15px;
+    width: 15%;
+    justify-content: space-around;
 }
 
 .logo{
@@ -15,25 +17,41 @@
     width: 130px;
 }
 
-.link{
+.fa-solid{
     padding: 10px;
+    transform: scale(1.6);
+    transition: all 0.5s;
 }
 
-.link:hover{
-    background-color: rgb(235, 243, 236);
-    border-radius: 5px;
-    box-shadow: 2px 0 3px rgba(0, 0, 0,0.2);
-    transition: .5s;
+.fa-solid:hover{
+    transform: scale(2);
+}
+
+/* coração */
+#coracaoFavorito{
+    color: red;
+    transform: scale(1);
+}
+#coracaoFavorito:hover{
+    transform: scale(1.3);
+}
+
+/* cesta */
+.fa-basket-shopping{
+    color: #FBA16C;
+}
+/* ícone de usuário */
+.fa-circle-user{
+    color: #D9D9D9;
 }
 
 .sobre-nos{
     color: #FBA16C;
     font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
 }
 
-
-@media(max-width:515px){
-    .sobre-nos{
-        display: none;
-    }
+.sobre-nos:hover{
+    text-decoration: underline;
 }
