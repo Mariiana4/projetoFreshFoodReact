@@ -12,7 +12,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
         <li className="card" onClick={()=> setModalAberta(true)}>
             <img className='image_card' src={imagemCardReceitas} />
             <div className="container_informacoes">
-                <div className="tag_icone-fav">
+                <div className="tag_icone-fav" id='cor'>
                     <p className="tag">{tagCardReceitas}</p>
                     {!IsFavorite && <i className="fa-regular fa-heart" onClick={() => setIsFavorite(true)}></i>}
                     {IsFavorite && <i className="fa-solid fa-heart" onClick={() => setIsFavorite(false)}></i>}

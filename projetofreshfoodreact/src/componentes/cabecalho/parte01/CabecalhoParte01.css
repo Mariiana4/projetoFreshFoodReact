@@ -28,20 +28,20 @@
 }
 
 /* coração */
-#coracaoFavorito{
+#coracao{
     color: red;
-    transform: scale(1);
+    transform: scale(1.6);
 }
-#coracaoFavorito:hover{
-    transform: scale(1.3);
+#coracao:hover{
+    transform: scale(2);
 }
 
 /* cesta */
-.fa-basket-shopping{
+#cesta{
     color: #FBA16C;
 }
 /* ícone de usuário */
-.fa-circle-user{
+#user{
     color: #D9D9D9;
 }
 

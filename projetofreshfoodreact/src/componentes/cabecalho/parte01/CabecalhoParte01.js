@@ -23,11 +23,11 @@ function cabecalhoParte01() {
     
             <nav class="nav-links">
       
-                <i class="fa-solid fa-heart" id='coracaoFavorito' ></i>
+                <i class="fa-solid fa-heart" id='coracao'></i>
         
-                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-basket-shopping" id='cesta'></i>
         
-                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-solid fa-circle-user" id='user'></i>
     
             </nav>
         </div>
