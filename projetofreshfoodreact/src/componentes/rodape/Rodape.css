@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,10 +68,10 @@ body{
     border-radius: 100%;
     padding: 5px;
 }
-
+ */
 
  /* Responsividade: laptop */
- @media (max-width: 1445px){
+ /* @media (max-width: 1445px){
     .logo_rodape{
         width: 15%;
     }
@@ -85,10 +85,10 @@ body{
         width: 20%;
     }
     
- }
+ } */
 
  /* Responsividade: tablet */
- @media (max-width: 770px){
+ /* @media (max-width: 770px){
     .logo_rodape{
         width: 25%;
     }
@@ -96,11 +96,11 @@ body{
         width: 80%;
     }
     
- }
+ } */
 
  /* Responsividade: celular */
 
- @media (max-width: 430px){
+ /* @media (max-width: 430px){
     .logo_rodape{
         width: 30%;
     }
@@ -123,4 +123,66 @@ body{
         width: 95%;
     }
     
- }
+ }  */
+
+ 
+.container_rodape{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px #00000030;
+    align-items: center;
+}
+
+.logo_rodape{
+    text-align: center;
+    transform: scale(0.6);
+}
+
+.texto{
+    color: #0D5C2A;
+    margin-bottom: auto;
+}
+
+.titulo{
+    font-weight: 700;
+    text-align: center;
+}
+
+.linha{
+    border-color: #0D5C2A;
+    margin:30px auto;
+    width: 60%;
+}
+
+.descricao-rodape{
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    font-size: 17px;
+}
+
+.container_icone-redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 50px 0;
+}
+
+.fa-brands{
+    transition: all 0.5s;
+    color: #0D5C2A;
+    transform: scale(2.2);
+    padding: 5px;
+}   
+
+.fa-brands:hover{
+    transform: scale(2.7);
+}
+.fa-brands:active{
+    background: #0d5c2a41;
+    border-radius: 10px;
+}
+ 
