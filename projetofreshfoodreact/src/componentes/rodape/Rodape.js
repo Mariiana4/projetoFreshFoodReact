@@ -22,7 +22,7 @@ function Rodape() {
             </div>
 
          </footer> */}
-            <footer class="container_rodape" id="sobre-nos">
+      <footer class="container_rodape" id="sobre-nos">
         
         <img class="logo_rodape" src="imagens/cabecalho/parte01/logo.svg" alt="logo da marca, ilustraça de uma caixa verde com cenouras verdes e a escrita Fresh Food ao lado"/>
         
@@ -42,7 +42,7 @@ function Rodape() {
             <i class="fa-brands fa-instagram"></i>
         </div>
 
-    </footer>
+      </footer>
     </>
   )
 }

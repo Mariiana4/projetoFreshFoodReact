@@ -127,6 +127,7 @@ body{
 
  
 .container_rodape{
+    width: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -156,7 +157,6 @@ body{
 }
 
 .descricao-rodape{
-    font-weight: 600;
     margin: auto;
     text-align: center;
     width: 90%;
@@ -184,5 +184,15 @@ body{
 .fa-brands:active{
     background: #0d5c2a41;
     border-radius: 10px;
+}
+
+@media(max-width:425px){
+    .logo_rodape{
+        transform: scale(0.4);
+    }
+
+    .titulo{
+        font-size: 21px;
+    }
 }
  

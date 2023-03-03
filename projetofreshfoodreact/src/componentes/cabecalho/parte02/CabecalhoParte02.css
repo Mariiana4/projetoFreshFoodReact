@@ -1,4 +1,4 @@
-.container02{
+/* .container02{
     align-items: center;
     background-image: url('/public/imagens/cabecalho/parte02/fudo_container02.jpg');
     display: flex;
@@ -35,4 +35,49 @@
     position: absolute;
     right: 12%;
     width: 16px;
+} */
+
+.container02{
+    align-items: center;
+    background-image: url('/public/imagens/cabecalho/parte02/fudo_container02.jpg');
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.campo-pesquisa{
+    border-radius: 50px;
+    font-size: 20px;
+    height: 45px;
+    padding: 10px 30px;
+    width: 80%;
+    font-size: 16px;
+}
+
+  
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    white-space: nowrap;
+  }
+  
+
+.icone-lupa{
+    position: absolute;
+    right: 13%;
+    width: 20px;
+}
+
+@media(max-width:430px){
+    .sobre-nos{
+        display: none;
+    }
 }
