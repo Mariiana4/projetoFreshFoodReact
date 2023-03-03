@@ -15,6 +15,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
                 <div className="tag_icone-fav">
                     <p className="tag">{tagCardReceitas}</p>
                     {!IsFavorite && <i className="fa-regular fa-heart" onClick={() => setIsFavorite(true)}></i>}
+                    {IsFavorite && <i className="fa-solid fa-heart" onClick={() => setIsFavorite(false)}></i>}
                 </div>
 
                 <h2 className="nome-receita">{nomeCardReceitas}</h2>
