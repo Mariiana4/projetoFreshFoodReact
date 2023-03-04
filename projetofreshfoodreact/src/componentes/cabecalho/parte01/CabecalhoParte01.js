@@ -25,9 +25,9 @@ function cabecalhoParte01() {
       
                 <i class="navIcones fa-solid fa-heart" id='coracaoIcone'></i>
         
-                <i class="navIcones fa-solid fa-basket-shopping" id='cesta'></i>
+                <i class="navIcones fa-solid fa-basket-shopping" id='cestaIcone'></i>
         
-                <i class="navIcones fa-solid fa-circle-user" id='user'></i>
+                <i class="navIcones fa-solid fa-circle-user" id='userIcone'></i>
     
             </nav>
         </div>
