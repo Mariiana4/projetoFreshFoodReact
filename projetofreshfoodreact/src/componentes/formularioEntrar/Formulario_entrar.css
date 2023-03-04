@@ -1,0 +1,111 @@
+.container_formCadastro{
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-cadastro_formCadastro{
+    text-align: center;
+    color: #FE4617;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.container_input-label_formCadastro{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label_formCadastro{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.label_formCadastro{
+    padding: 0 0 0 25px;
+    color: #717171;
+    font-weight: 600;
+}
+
+.input_fomrCadastro{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #000000b2;
+    padding: 5px 0 5px 25px;
+    margin-top: 10px;
+}
+
+.container-botao_formCadastro{
+    margin: auto;
+}
+
+.botao-finalizar_formCadastro{
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.3);
+    transition: all 0.9s;
+    font-weight: bold;
+}
+
+
+.botao-finalizar_formCadastro:hover{
+    color: #fff;
+    background: #FE4617;
+    border-radius: 30px;
+}
+
+/* Esqueceu senha: */
+
+em{
+    color: #FE4617;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container_esqueceuSenha{
+    text-align: center;
+    font-weight: bold;
+    margin: 14px 0;
+}
+
+.titulo_esqueceuSenha{
+    color: #FE4617;
+    font-size: 13px;
+}
+
+.texto_esqueceuSenha{
+    width: 50%;
+    margin: auto;
+}
+
+.container-botao_formLogin{
+    margin: auto;
+}
+
+.botao-finalizar_formLogin{
+    background: #FE4617;
+    color: #FFF;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    .container_formCadastro{
+        width: 70%;
+    }
+
+}
