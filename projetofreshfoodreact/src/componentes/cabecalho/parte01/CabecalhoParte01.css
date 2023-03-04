@@ -17,32 +17,30 @@
     width: 130px;
 }
 
-.fa-solid{
+/* icones do cabecalho */
+.navIcones{
     padding: 10px;
     transform: scale(1.6);
-    transition: all 0.5s;
+    transition: all 0.5s;   
 }
-
-.fa-solid:hover{
+.navIcones:hover{
     transform: scale(2);
 }
 
-/* coração */
-#coracao{
+/* ícone de coração */
+#coracaoIcone{
     color: red;
     transform: scale(1.6);
 }
-#coracao:hover{
-    transform: scale(2);
-}
 
-/* cesta */
-#cesta{
-    color: #FBA16C;
-}
 /* ícone de usuário */
 #user{
     color: #D9D9D9;
+}
+
+/* ícone de cesta */
+#cesta{
+    color: #FBA16C;
 }
 
 .sobre-nos{
