@@ -9,8 +9,8 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
 
   return (
     <>
-        <li className="card" onClick={()=> setModalAberta(true)}>
-            <img className='image_card' src={imagemCardReceitas} />
+        <li className="card">
+            <img className='image_card' src={imagemCardReceitas} onClick={()=> setModalAberta(true)} />
             <div className="container_informacoes">
                 <div className="tag_icone-fav" id='cor'>
                     <p className="tag">{tagCardReceitas}</p>
