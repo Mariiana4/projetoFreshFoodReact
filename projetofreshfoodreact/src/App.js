@@ -5,6 +5,7 @@ import CardDeReceitas from './componentes/cardReceitas/CardDeReceitas';
 import {Receitas} from './componentes/data/Data';
 import Rodape from './componentes/rodape/Rodape';
 import CabecalhoParte02 from './componentes/cabecalho/parte02/CabecalhoParte02';
+import Pagina_cadastro from './componentes/paginas/Pagina_cadastro';
 
 function App() {
   const [receitas, setReceitas] = useState(Receitas);
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <Pagina_cadastro/>
       <CabecalhoParte01/>
       <div className="container02">
             <label for="filter" className="sr-only">Pesquisar</label>
