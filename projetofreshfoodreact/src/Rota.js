@@ -10,7 +10,7 @@ function RotaLogin() {
         <Route path="/" element={<Pagina_inicio/>}/>
         <Route path="/login" element={<Pagina_login/>}/>
         <Route path="/cadastro" element={<Pagina_cadastro/>}/>
-    </Routes>
+      </Routes>
   )
 }
 

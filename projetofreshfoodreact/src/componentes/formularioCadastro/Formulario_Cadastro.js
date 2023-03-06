@@ -1,7 +1,7 @@
 import React from 'react'
-import './Formulario_cadastro.css'
+import './Formulario_Cadastro.css'
 
-function Formulario_cadastro() {
+function Formulario_Cadastro() {
   return (
     <>
       <main>
@@ -51,4 +51,4 @@ function Formulario_cadastro() {
   )
 }
 
-export default Formulario_cadastro
+export default Formulario_Cadastro
