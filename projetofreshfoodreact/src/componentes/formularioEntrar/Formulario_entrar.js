@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Formulario_entrar.css'
 
 function Formulario_entrar() {
@@ -25,7 +26,7 @@ function Formulario_entrar() {
 
                 <section className="container_esqueceuSenha">
                     <p className="titulo_esqueceuSenha">Esqueceu a senha?</p>
-                    <p className="texto_esqueceuSenha">Não possui login? Faça seu <em>cadastro</em> agora mesmo!</p>
+                    <p className="texto_esqueceuSenha">Não possui login? Faça seu <Link to="/cadastro"><em>cadastro</em></Link> agora mesmo!</p>
                 </section>
             </form>
 
