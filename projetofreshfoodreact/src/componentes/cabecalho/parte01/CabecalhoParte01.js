@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './CabecalhoParte01.css'
 
 function cabecalhoParte01() {
@@ -27,7 +28,7 @@ function cabecalhoParte01() {
         
                 <i class="navIcones fa-solid fa-basket-shopping" id='cestaIcone'></i>
         
-                <i class="navIcones fa-solid fa-circle-user" id='userIcone'></i>
+                <Link to="/login"><i class="navIcones fa-solid fa-circle-user" id='userIcone'></i></Link>
     
             </nav>
         </div>
