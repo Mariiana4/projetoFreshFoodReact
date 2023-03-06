@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-
-import Pagina_inicio from './componentes/paginas/Pagina_inicio';
+import {BrowserRouter} from 'react-router-dom'
+import Rota from '../src/Rota'
 
 function App() {
 
   return (
     <div className="App">
-      <Pagina_inicio/>
-    
+      <Rota/>
     </div>
   )
 }
