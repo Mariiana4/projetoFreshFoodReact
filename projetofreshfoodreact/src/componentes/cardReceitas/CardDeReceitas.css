@@ -32,7 +32,7 @@
 /* Informações - parte 02 */
 .container_informacoes{
     padding: 20px;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,11 +131,11 @@ ul:has(.card:hover) .card:not(:hover) {
   }
 
 /* Responsividade: laptop */
-@media(max-width:1500px){
+/* @media(max-width:1500px){
     .container_informacoes{
         height: 200px;
     }
-}
+} */
 
 @media(max-width:1095px){
     .container_cards{
