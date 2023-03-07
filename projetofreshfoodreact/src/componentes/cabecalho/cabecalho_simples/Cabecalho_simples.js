@@ -1,12 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Cabecalho_simples.css'
 
 function Cabecalho_simples() {
+  const navigate = useNavigate();
+  
   return (
     <>
         <header className="cabecalho-simples">
-            <Link to="/"><i className="fa-solid fa-arrow-left"></i></Link>
+            <i onClick={() => navigate(-1)} className="fa-solid fa-arrow-left"></i>
             <img className="logo_cabecalho-simples" src="imagens/cabecalho/parte01/logo.svg" alt=""/>
         </header>
     </>
