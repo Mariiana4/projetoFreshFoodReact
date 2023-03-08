@@ -18,7 +18,7 @@ function CardDeReceitas({imagemCardReceitas, tagCardReceitas, nomeCardReceitas, 
                     {IsFavorite && <i className="fa-solid fa-heart coracaoPreenchido" onClick={() => setIsFavorite(false)}></i>}
                 </div>
 
-                <h2 className="nome-receita">{nomeCardReceitas}</h2>
+                <h2 className="nome-receita">{nomeCardReceitas.length>35 ? nomeCardReceitas.substr(0, 35) + "..." : nomeCardReceitas}</h2>
 
                 <div className="container_icones">
 

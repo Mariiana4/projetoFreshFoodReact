@@ -1,0 +1,128 @@
+.titulo_cestoDeCompras{
+    text-align: center;
+    color: #FE4617;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+
+.container_informacoes_cestoDeCompras{
+    display: flex;
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.imagem_item_cestoDeCompras{
+    margin: auto 0;
+    object-fit: cover;
+    height: 90%;
+    border-radius: 30px;
+}
+
+.item_cestoDeCompras{
+    display: flex;
+    /* background: gray; */
+    width: 70%;
+}
+
+
+.nome_ingredientes_tag_remover_cestoDeCompras{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: gold; */
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.nome_cestoDeCompras{
+    font-weight: bold;
+    /* background: pink; */
+    text-align: start;
+}
+
+.container_tag_remover_cestoDeCompras{
+    display: flex;
+    /* background: palevioletred; */
+    justify-content: space-between;
+    width: 30%;
+}
+
+.tag_cestoDeCompras{
+    background: green;
+    border-radius: 45px;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.remover_cestoDeCompras{
+    font-weight: bold;
+    color: #717171;
+    cursor: pointer;
+    transition: all 0.7s;
+    padding: 5px;
+}
+.remover_cestoDeCompras:hover{
+    /* background: #f75b3466; */
+    /* background: #fe451742;
+    color: #ffffff; */
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+.remover_cestoDeCompras:active{
+    background: #f87c5d; 
+    background: #fe4517aa;
+    color: #FFF; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.preco_quantidade_cestoDeCompras{
+    margin-right: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* background: #9558eb; */
+}
+
+.preco_cestoDeCompras{
+    /* background: #9bffb4; */
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.container_quantidade_cestoDeCompras{
+    background: #fe9a17;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    width: 65%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+.remover_quantidade_cestoDeCompras, .adicionar_quantidade_cestoDeCompras{
+    cursor: pointer;
+}
+
+
+/* 
+.quantidade_cestoDeCompras{} 
+*/
+
+.linha-divisao_cestoDeCompras{
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid #D9D9D9;  
+}

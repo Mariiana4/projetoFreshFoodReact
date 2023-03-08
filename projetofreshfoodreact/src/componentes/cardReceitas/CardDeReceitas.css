@@ -32,7 +32,7 @@
 /* Informações - parte 02 */
 .container_informacoes{
     padding: 20px;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,7 +71,7 @@
 .nome-receita{
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 19px;
     margin-top: 10px;
     text-align: left;
@@ -131,11 +131,11 @@ ul:has(.card:hover) .card:not(:hover) {
   }
 
 /* Responsividade: laptop */
-@media(max-width:1500px){
+/* @media(max-width:1500px){
     .container_informacoes{
         height: 200px;
     }
-}
+} */
 
 @media(max-width:1095px){
     .container_cards{
