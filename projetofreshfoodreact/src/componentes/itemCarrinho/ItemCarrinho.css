@@ -1,8 +1,8 @@
 .titulo_cestoDeCompras{
     text-align: center;
     color: #FE4617;
-    font-weight: bold;
-    margin: 30px 0;
+    font-weight: 100;
+    margin: 40px 0;
 }
 
 .container_informacoes_cestoDeCompras{
@@ -41,7 +41,7 @@
 }
 
 .nome_cestoDeCompras{
-    font-weight: bold;
+    font-weight: 100;
     /* background: pink; */
     text-align: start;
 }
@@ -57,7 +57,7 @@
     background: green;
     border-radius: 45px;
     padding: 0px 10px;
-    font-weight: bold;
+    font-weight: 100;
     color: #fff;
     font-size: 15px;
     display: flex;
@@ -65,7 +65,7 @@
 }
 
 .remover_cestoDeCompras{
-    font-weight: bold;
+    font-weight: 100;
     color: #717171;
     cursor: pointer;
     transition: all 0.7s;
@@ -109,7 +109,8 @@
     width: 65%;
     margin: 0 auto;
     color: #fff;
-    font-weight: bold;
+    font-weight: 100;
+    padding: 3px 0;
 }
 
 .remover_quantidade_cestoDeCompras, .adicionar_quantidade_cestoDeCompras{
