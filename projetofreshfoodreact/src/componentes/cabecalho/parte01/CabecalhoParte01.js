@@ -26,7 +26,7 @@ function cabecalhoParte01() {
       
                 <i class="navIcones fa-solid fa-heart" id='coracaoIcone'></i>
         
-                <i class="navIcones fa-solid fa-basket-shopping" id='cestaIcone'></i>
+                <Link to="/cestaDeCompras"><i class="navIcones fa-solid fa-basket-shopping" id='cestaIcone'></i></Link>
         
                 <Link to="/login"><i class="navIcones fa-solid fa-circle-user" id='userIcone'></i></Link>
     
