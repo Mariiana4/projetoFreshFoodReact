@@ -1,5 +1,5 @@
 import React from 'react'
-import './Formulario_cadastro.css'
+import './Formulario_Cadastro.css'
 
 function Formulario_Cadastro() {
   return (
