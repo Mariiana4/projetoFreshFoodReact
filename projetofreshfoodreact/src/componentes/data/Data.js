@@ -1,6 +1,6 @@
 export const Receitas = [
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_beringela-recheada.jpg",
         "tagCardReceitas": "Vegetariano",
         "nomeCardReceitas": "Beringela recheada com quinoa",
         "tempoCardReceitas": "40 min",
@@ -22,7 +22,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_rolo-lentilha.jpg",
         "tagCardReceitas": "Vegetariano",
         "nomeCardReceitas": "Rolo de lentilhas com compota de frutos vermelhos",
         "tempoCardReceitas": "20 min",
@@ -36,10 +36,9 @@ export const Receitas = [
             "1 talo de aipo",
             "1 cenoura em cubos",
             "50 g de cogumelos",
-            "1 colher de sopa de uvas passa",
             "210 g de lentilhas cozidas",
             "50 g de pão ralado",
-            "1 colherde sopa de salsa picada",
+            "1 colher de sopa de salsa picada",
             "sal",
             "pimenta do reino moída",
             "50 g de compota de frutas vermelhas",
@@ -48,7 +47,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_bolo-laranja.jpg",
         "tagCardReceitas": "Vegano",
         "nomeCardReceitas": "Bolo de laranja com alecrim vegano",
         "tempoCardReceitas": "120 minutos",
@@ -71,7 +70,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_french-toast.jpg",
         "tagCardReceitas": "Vegano",
         "nomeCardReceitas": "French toast vegano",
         "tempoCardReceitas": "30 minutos",
@@ -90,7 +89,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_pao-queijo.jpg",
         "tagCardReceitas": "Vegano",
         "nomeCardReceitas": "pão de queijo vegano",
         "tempoCardReceitas": "100 min",
@@ -108,7 +107,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_panqueca.jpg",
         "tagCardReceitas": "Restrições alimentares",
         "nomeCardReceitas": "Panqueca sem glúten",
         "tempoCardReceitas": "30 min",
@@ -126,7 +125,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_creme-mandioquinha.jpg",
         "tagCardReceitas": "Restrições alimentares",
         "nomeCardReceitas": "Creme de mandioquinha com queijo vegetal (sem Lactose)",
         "tempoCardReceitas": "45 min",
@@ -143,40 +142,40 @@ export const Receitas = [
             
         ]
     },
+    // {
+    //     "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/",
+    //     "tagCardReceitas": "Restrições alimentares",
+    //     "nomeCardReceitas": "Chandelle (sem Lactose)",
+    //     "tempoCardReceitas": "20 min",
+    //     "dificuldadeCardReceitas": "Fácil",
+    //     "porcaoCardReceitas": "4",
+    //     "precoCardReceitas": "22,90",
+    //     "itensCardReceitas": [
+    //         "2 bananas congeladas",
+    //         "1 colher de sopa de cacau em pó",
+    //         "4 pedras de gelo",
+    //         "150 ml de leite vegetal"
+    //     ]
+    // },
+    // {
+    //     "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/",
+    //     "tagCardReceitas": "Restrições alimentares",
+    //     "nomeCardReceitas": "Pão de queijo (sem glúten)",
+    //     "tempoCardReceitas": "40 min",
+    //     "dificuldadeCardReceitas": "médio",
+    //     "porcaoCardReceitas": "6",
+    //     "precoCardReceitas": "38,90",
+    //     "itensCardReceitas": [
+    //         "2 xícaras de polvilho doce",
+    //         "1/2 xícaras de polvilho azedo",
+    //         "11/2 xícaras de batata baroa (ou mandioquinha) bem cozida e amassada no estilo purê",
+    //         "1/3 de xícaras de óleo vegetal",
+    //         "1/4 de xícaras de água morna",
+    //         "sal a gosto"
+    //     ]
+    // },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
-        "tagCardReceitas": "Restrições alimentares",
-        "nomeCardReceitas": "Chandelle (sem Lactose)",
-        "tempoCardReceitas": "20 min",
-        "dificuldadeCardReceitas": "Fácil",
-        "porcaoCardReceitas": "4",
-        "precoCardReceitas": "22,90",
-        "itensCardReceitas": [
-            "2 bananas congeladas",
-            "1 colher de sopa de cacau em pó",
-            "4 pedras de gelo",
-            "150 ml de leite vegetal"
-        ]
-    },
-    {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
-        "tagCardReceitas": "Restrições alimentares",
-        "nomeCardReceitas": "Pão de queijo (sem glúten)",
-        "tempoCardReceitas": "40 min",
-        "dificuldadeCardReceitas": "médio",
-        "porcaoCardReceitas": "6",
-        "precoCardReceitas": "38,90",
-        "itensCardReceitas": [
-            "2 xícaras de polvilho doce",
-            "1/2 xícaras de polvilho azedo",
-            "11/2 xícaras de batata baroa (ou mandioquinha) bem cozida e amassada no estilo purê",
-            "1/3 de xícaras de óleo vegetal",
-            "1/4 de xícaras de água morna",
-            "sal a gosto"
-        ]
-    },
-    {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_mousse-chocolate.jpg",
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Mousse Clássica de Chocolate",
         "tempoCardReceitas": "200 min",
@@ -191,7 +190,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_morango-suspiro.jpg",
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Surpresa de morangos com merengue",
         "tempoCardReceitas": "55 min",
@@ -208,7 +207,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_bombom.jpg",
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Bombom de nozes",
         "tempoCardReceitas": "35 min",
@@ -223,7 +222,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_carne-batata.jpg",
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Carne assada com batata",
         "tempoCardReceitas": "120 min",
@@ -243,7 +242,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fraldinha assada com manteiga e alho",
         "tempoCardReceitas": "35 min",
@@ -257,6 +256,7 @@ export const Receitas = [
             "2 dentes de alho",
             "2 colheres de sopa de manteiga" 
         ]
+<<<<<<< HEAD
     },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
@@ -352,5 +352,7 @@ export const Receitas = [
             "200 g de mussarela fatiada",
             "100 g de batata palha"
         ]
+=======
+>>>>>>> d1a78e1903cd
     }
 ]
