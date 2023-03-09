@@ -256,10 +256,9 @@ export const Receitas = [
             "2 dentes de alho",
             "2 colheres de sopa de manteiga" 
         ]
-<<<<<<< HEAD
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fraldinha assada na mostarda",
         "tempoCardReceitas": "90 min",
@@ -275,7 +274,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Tilápia frita crocante",
         "tempoCardReceitas": "30 min",
@@ -293,7 +292,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Bolinho de bacalhau",
         "tempoCardReceitas": "50 min",
@@ -311,7 +310,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Risoto de camarão",
         "tempoCardReceitas": "45 min",
@@ -333,7 +332,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fricassê de frango",
         "tempoCardReceitas": "45 min",
@@ -352,7 +351,5 @@ export const Receitas = [
             "200 g de mussarela fatiada",
             "100 g de batata palha"
         ]
-=======
->>>>>>> d1a78e1903cd
     }
 ]
