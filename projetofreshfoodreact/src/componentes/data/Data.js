@@ -273,5 +273,84 @@ export const Receitas = [
             "500 g a 1,2 kg de peça de carne (carnes macias)",
             "sal e pimenta-do-reino a gosto" 
         ]
+    },
+    {
+        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "tagCardReceitas": "Frutos do mar",
+        "nomeCardReceitas": "Tilápia frita crocante",
+        "tempoCardReceitas": "30 min",
+        "dificuldadeCardReceitas": "médio",
+        "porcaoCardReceitas": "8",
+        "precoCardReceitas": "78,90",
+        "itensCardReceitas": [
+            "2 filés de tilápia",
+            "1 dente de alho picado",
+            "suco de 1/2 limão",
+            "1/2 copo de farinha de trigo",
+            "sal e pimenta-do-reino a gosto",
+            "1/2 copo de fubá mimoso",
+            "óleo para fritar"
+        ]
+    },
+    {
+        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "tagCardReceitas": "Frutos do mar",
+        "nomeCardReceitas": "Bolinho de bacalhau",
+        "tempoCardReceitas": "50 min",
+        "dificuldadeCardReceitas": "médio",
+        "porcaoCardReceitas": "40",
+        "precoCardReceitas": "46,90",
+        "itensCardReceitas": [
+            "300 g de bacalhau dassalgado e desfiado",
+            "3 xícaras (chá) de batatas cozidas e espremidas",
+            "1 colher (sopa) de farinha de trigo",
+            "3 ovos",
+            "sal e pimenta-do-reino a gosto",
+            "2 colheres (sopa) de cheiro-verde picado",
+            "óleo para fritar"
+        ]
+    },
+    {
+        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "tagCardReceitas": "Frutos do mar",
+        "nomeCardReceitas": "Risoto de camarão",
+        "tempoCardReceitas": "45 min",
+        "dificuldadeCardReceitas": "médio",
+        "porcaoCardReceitas": "4",
+        "precoCardReceitas": "89,90",
+        "itensCardReceitas": [
+            "400 g de camarão",
+            "2 litros de caldo de peixe ou frango",
+            "110 g de manteiga",
+            "1/2 cebola picada",
+            "sal e pimenta-do-reino a gosto",
+            "1 dente de alho picado",
+            "150 g de tomate picado e sem semente",
+            "200 g de arroz para risoto",
+            "60 ml de vinho branco seco",
+            "70 g de queijo parmesão",
+            "salsinha picada"
+        ]
+    },
+    {
+        "imagemCardReceitas": "/imagens/cardReceitas/receita02.jpg",
+        "tagCardReceitas": "Carnes",
+        "nomeCardReceitas": "Fricassê de frango",
+        "tempoCardReceitas": "45 min",
+        "dificuldadeCardReceitas": "médio",
+        "porcaoCardReceitas": "6",
+        "precoCardReceitas": "44,90",
+        "itensCardReceitas": [
+            "400 g de camarão",
+            "1 lata de milho-verde",
+            "1 copo de requijão cremoso",
+            "1 lata de creme de leite",
+            "1 pitada de sal",
+            "1 xícara de chá de água",
+            "2 peitos de frango desfiados",
+            "100 g de azeitona sem cariço",
+            "200 g de mussarela fatiada",
+            "100 g de batata palha"
+        ]
     }
 ]
