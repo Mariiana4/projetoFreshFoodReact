@@ -142,38 +142,6 @@ export const Receitas = [
             
         ]
     },
-    // {
-    //     "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/",
-    //     "tagCardReceitas": "Restrições alimentares",
-    //     "nomeCardReceitas": "Chandelle (sem Lactose)",
-    //     "tempoCardReceitas": "20 min",
-    //     "dificuldadeCardReceitas": "Fácil",
-    //     "porcaoCardReceitas": "4",
-    //     "precoCardReceitas": "22,90",
-    //     "itensCardReceitas": [
-    //         "2 bananas congeladas",
-    //         "1 colher de sopa de cacau em pó",
-    //         "4 pedras de gelo",
-    //         "150 ml de leite vegetal"
-    //     ]
-    // },
-    // {
-    //     "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/",
-    //     "tagCardReceitas": "Restrições alimentares",
-    //     "nomeCardReceitas": "Pão de queijo (sem glúten)",
-    //     "tempoCardReceitas": "40 min",
-    //     "dificuldadeCardReceitas": "médio",
-    //     "porcaoCardReceitas": "6",
-    //     "precoCardReceitas": "38,90",
-    //     "itensCardReceitas": [
-    //         "2 xícaras de polvilho doce",
-    //         "1/2 xícaras de polvilho azedo",
-    //         "11/2 xícaras de batata baroa (ou mandioquinha) bem cozida e amassada no estilo purê",
-    //         "1/3 de xícaras de óleo vegetal",
-    //         "1/4 de xícaras de água morna",
-    //         "sal a gosto"
-    //     ]
-    // },
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_mousse-chocolate.jpg",
         "tagCardReceitas": "Sobremesas",
@@ -255,22 +223,6 @@ export const Receitas = [
             "pimenta a gosto",
             "2 dentes de alho",
             "2 colheres de sopa de manteiga" 
-        ]
-    },
-    {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
-        "tagCardReceitas": "Carnes",
-        "nomeCardReceitas": "Fraldinha assada na mostarda",
-        "tempoCardReceitas": "90 min",
-        "dificuldadeCardReceitas": "médio",
-        "porcaoCardReceitas": "4",
-        "precoCardReceitas": "64,90",
-        "itensCardReceitas": [
-            "2 colheres de sopa de manteiga (amolecida)",
-            "2 dentes de alho",
-            "2 colheres de sopa de mostarda",
-            "500 g a 1,2 kg de peça de carne (carnes macias)",
-            "sal e pimenta-do-reino a gosto" 
         ]
     },
     {
