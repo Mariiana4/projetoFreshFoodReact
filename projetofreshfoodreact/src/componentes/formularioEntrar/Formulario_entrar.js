@@ -3,26 +3,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Formulario_entrar.css'
 
-
 function Formulario_entrar() {
 
     const [formData, setFormData] = useState({
-        emailEntrar: '',
-        senhaEntrar: '',
+        email_usuario: '',
+        senha_usuario: '',
     })
-
-    const handleFormEdit = (event, emailEntrar) => {
-        setFormData({
-            ...formData,
-            [emailEntrar]: event.target.value   
-        })
-    }
 
     const handleForm = async (event) => {
         try{
             event.preventDefault()
             const response = await fetch(``, {
-                method: '',
+                method: 'post',
                 body: JSON.stringify(formData )
             })
             const json = await response.json()
@@ -48,8 +40,8 @@ function Formulario_entrar() {
                         id="email" 
                         placeholder="Preencha com seu e-mail" 
                         required
-                        value={formData.emailEntrar}
-                        onChange={(e) => {handleFormEdit(e, 'emailEntrar')}}
+                        value={formData.email_usuario}
+                        onChange={(e) => setFormData({...formData, email_usuario: e.target.value})}
                     />
                 </div>
 
@@ -62,8 +54,8 @@ function Formulario_entrar() {
                         id="senha" 
                         placeholder="Insira a sua senha" 
                         required
-                        value={formData.senhaEntrar}
-                        onChange={(event) => {handleFormEdit(event, 'senhaEntrar')}}
+                        value={formData.senha_usuario}
+                        onChange={(e) => setFormData({...formData, senha_usuario: e.target.value})}
                     />
                 </div>
 
