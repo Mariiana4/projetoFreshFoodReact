@@ -226,7 +226,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_tilapia-frita-crocante.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Tilápia frita crocante",
         "tempoCardReceitas": "30 min",
@@ -244,7 +244,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_bolinho-de-bacalhau.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Bolinho de bacalhau",
         "tempoCardReceitas": "50 min",
@@ -262,7 +262,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_risoto-camarao.jpg",
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Risoto de camarão",
         "tempoCardReceitas": "45 min",
@@ -284,7 +284,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fraldinha-assada-molhoMostarda.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_fricasse-de-frango.jpg",
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fricassê de frango",
         "tempoCardReceitas": "45 min",
