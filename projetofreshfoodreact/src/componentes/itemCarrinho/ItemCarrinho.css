@@ -2,7 +2,8 @@
     text-align: center;
     color: #FE4617;
     font-weight: 100;
-    margin: 40px 0 50px 0;
+    margin: 40px 0;
+    font-size: 25px;
 }
 
 .container_informacoes_cestoDeCompras{
@@ -136,7 +137,7 @@
     border-radius: 5px;
     color: #333030;
     position: sticky;
-    bottom: 0;
+    bottom: 10px;
 }
 
 .container_totalCompra_preco{
