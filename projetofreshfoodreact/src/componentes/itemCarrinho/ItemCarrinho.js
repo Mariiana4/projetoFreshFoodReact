@@ -99,7 +99,7 @@ function ItemCarrinho() {
             <p className='container_totalCompra_preco'>R$ 130,07</p>
         </div>
 
-        <button className='totalCompra_botao_pagar'>Pagar</button>
+        <button className='totalCompra_botao_pagar'>Finalizar compra</button>
 
 
     </main>
