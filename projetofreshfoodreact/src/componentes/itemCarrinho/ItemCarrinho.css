@@ -33,9 +33,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background: gold; */
     width: 100%;
-    height: 90%;
+    height: 70%;
     margin: auto;
     padding-left: 30px;
 }
