@@ -1,0 +1,34 @@
+#container_paginaFavoritos{
+    margin: 0 auto;
+}
+
+#testeFavorito{
+    color: red;
+    transform: scale(1.5);
+}
+
+#testePorcao{
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    background: #FC4040;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.titulo_paginaFavoritos{
+    text-align: center;
+    color: #408c37;
+    font-weight: 100;
+    margin: 40px auto;
+    padding: 15px;
+    border-bottom: solid #408c37 1px;
+    width: 50%;
+}

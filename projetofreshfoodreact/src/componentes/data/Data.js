@@ -24,7 +24,7 @@ export const Receitas = [
     {
         "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_rolo-lentilha.jpg",
         "tagCardReceitas": "Vegetariano",
-        "nomeCardReceitas": "Rolo de lentilhas com compota de frutos vermelhos",
+        "nomeCardReceitas": "Rolo de lentilhas com compota de frutas vermelhas",
         "tempoCardReceitas": "20 min",
         "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "8",
@@ -51,7 +51,7 @@ export const Receitas = [
         "tagCardReceitas": "Vegano",
         "nomeCardReceitas": "Bolo de laranja com alecrim vegano",
         "tempoCardReceitas": "120 minutos",
-        "dificuldadeCardReceitas": "médio",   
+        "dificuldadeCardReceitas": "Médio",   
         "porcaoCardReceitas": "15",
         "precoCardReceitas": "40,00",
         "itensCardReceitas": [
@@ -74,7 +74,7 @@ export const Receitas = [
         "tagCardReceitas": "Vegano",
         "nomeCardReceitas": "French toast vegano",
         "tempoCardReceitas": "30 minutos",
-        "dificuldadeCardReceitas": "fácil",
+        "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "8",
         "precoCardReceitas": "44,90",
         "itensCardReceitas": [
@@ -116,7 +116,7 @@ export const Receitas = [
         "precoCardReceitas": "29,90",
         "itensCardReceitas": [
             "1 xícara de farinha de aveia (sem glúten)",
-            "1 inhame médio",
+            "1 inhame Médio",
             "1 xícara de água",
             "1/4 xícara de polvilho doce",
             "1 colher de sopa de óleo vegetal",
@@ -147,7 +147,7 @@ export const Receitas = [
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Mousse Clássica de Chocolate",
         "tempoCardReceitas": "200 min",
-        "dificuldadeCardReceitas": "fácil",
+        "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "6",
         "precoCardReceitas": "22,50",
         "itensCardReceitas": [
@@ -162,7 +162,7 @@ export const Receitas = [
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Surpresa de morangos com merengue",
         "tempoCardReceitas": "55 min",
-        "dificuldadeCardReceitas": "fácil",
+        "dificuldadeCardReceitas": "Fácil",
         "porcaoCardReceitas": "8",
         "precoCardReceitas": "24,90",
         "itensCardReceitas": [
@@ -179,7 +179,7 @@ export const Receitas = [
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Bombom de nozes",
         "tempoCardReceitas": "35 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "30",
         "precoCardReceitas": "24,90",
         "itensCardReceitas": [
@@ -194,7 +194,7 @@ export const Receitas = [
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Carne assada com batata",
         "tempoCardReceitas": "120 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "3",
         "precoCardReceitas": "68,90",
         "itensCardReceitas": [
@@ -214,7 +214,7 @@ export const Receitas = [
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fraldinha assada com manteiga e alho",
         "tempoCardReceitas": "35 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "5",
         "precoCardReceitas": "64,90",
         "itensCardReceitas": [
@@ -230,7 +230,7 @@ export const Receitas = [
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Tilápia frita crocante",
         "tempoCardReceitas": "30 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "8",
         "precoCardReceitas": "78,90",
         "itensCardReceitas": [
@@ -248,7 +248,7 @@ export const Receitas = [
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Bolinho de bacalhau",
         "tempoCardReceitas": "50 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "40",
         "precoCardReceitas": "46,90",
         "itensCardReceitas": [
@@ -266,7 +266,7 @@ export const Receitas = [
         "tagCardReceitas": "Frutos do mar",
         "nomeCardReceitas": "Risoto de camarão",
         "tempoCardReceitas": "45 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "4",
         "precoCardReceitas": "89,90",
         "itensCardReceitas": [
@@ -288,7 +288,7 @@ export const Receitas = [
         "tagCardReceitas": "Carnes",
         "nomeCardReceitas": "Fricassê de frango",
         "tempoCardReceitas": "45 min",
-        "dificuldadeCardReceitas": "médio",
+        "dificuldadeCardReceitas": "Médio",
         "porcaoCardReceitas": "6",
         "precoCardReceitas": "44,90",
         "itensCardReceitas": [
