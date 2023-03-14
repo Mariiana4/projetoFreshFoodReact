@@ -69,7 +69,6 @@ function Formulario_entrar() {
                 </section>
             </form>
 
-
         </div>
     </main>
     </>
