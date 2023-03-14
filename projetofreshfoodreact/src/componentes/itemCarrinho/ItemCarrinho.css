@@ -154,12 +154,12 @@
 }
 
 .totalCompra_botao_pagar:hover{
-    background: #fe914d;
+    background: #fa6305c6;
     padding: 10px 30px;
 
 }
 .totalCompra_botao_pagar:active{
-    background: #ff6404;
+    background: #f75f00;
 }
 
 
