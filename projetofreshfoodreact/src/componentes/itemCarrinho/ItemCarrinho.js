@@ -94,6 +94,14 @@ function ItemCarrinho() {
             <hr className="linha-divisao_cestoDeCompras"/>
         </div>
 
+        <div className='container_totalCompra'>
+            <p className='container_totalCompra_texto'>Valor total da sua compra:</p>
+            <p className='container_totalCompra_preco'>R$ 130,07</p>
+        </div>
+
+        <button className='totalCompra_botao_pagar'>Pagar</button>
+
+
     </main>
 </>
   )
