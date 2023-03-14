@@ -158,7 +158,7 @@ export const Receitas = [
         ]
     },
     {
-        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_morango-suspiro.jpg",
+        "imagemCardReceitas": "/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_morangoComSuspiro.jpg",
         "tagCardReceitas": "Sobremesas",
         "nomeCardReceitas": "Surpresa de morangos com merengue",
         "tempoCardReceitas": "55 min",
