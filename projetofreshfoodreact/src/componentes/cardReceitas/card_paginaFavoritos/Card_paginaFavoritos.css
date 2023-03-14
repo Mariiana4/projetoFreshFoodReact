@@ -1,0 +1,178 @@
+/* Container de todos os cards */
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 25px;
+    width: 100%;
+}
+
+/* Card */
+.card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.20) 10px 9px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 35px;
+    width: 22%;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+/* Imagem - parte 01*/
+.image_card{
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Informações - parte 02 */
+.container_informacoes{
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 1º linha */
+.tag_icone-fav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tag identificação */
+.tag{
+    background: #408C37;
+    border-radius: 23px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/* Ícone de coração */
+.fa-regular{
+    color: #408C37;
+    transform: scale(1.5);
+}
+
+/* Linha 2 - Nome da receita */
+.nome-receita{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Linha 3 - ícones e descrição */
+
+/* Container dos ícones */
+.container_icones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Container dos icones com a descrição */
+.icone_descricao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px black;
+    width: 100%;
+    position: relative;
+}
+
+/* Ícone */
+.iconeCard{
+    transform: scale(0.7);
+}
+
+.descricao_iconeCard{
+    font-size: 15px;
+}
+#tempo{
+    border: none;
+}
+
+.quantidadePorcao_icone_descricao{
+    background: red;
+    position: absolute;
+    top: 4px;
+    right: 24px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px 1px rgb(0, 0, 0, 0.3)
+}
+
+#linha01,
+#linha02{
+    height: 100%;
+}
+
+ul:has(li:hover) li:not(:hover) {
+    opacity: .6;
+    scale: .98;
+    transition: .5s;
+}
+
+@media (max-width: 1024px) {
+    .container_cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 30%;
+    }
+    .descricao_iconeCard{
+        font-size: 13px;
+    }
+    .quantidadePorcao_icone_descricao{
+        top: 4px;
+        right: 18px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .container_cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+    .quantidadePorcao_icone_descricao{
+        top: 4px;
+        right: 20px;
+    }
+   
+}
+
+
+
+/* Responsividade: celular */
+
+@media (max-width:621px){
+    .container_cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+} 
+
