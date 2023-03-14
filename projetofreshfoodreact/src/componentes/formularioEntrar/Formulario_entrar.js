@@ -65,7 +65,7 @@ function Formulario_entrar() {
 
                 <section className="container_esqueceuSenha">
                     <p className="titulo_esqueceuSenha">Esqueceu a senha?</p>
-                    <p className="texto_esqueceuSenha">Não possui login? Faça seu <Link to="/cadastro"><em>cadastro</em></Link> agora mesmo!</p>
+                    <p className="texto_esqueceuSenha">Não possui login? Faça seu <Link className='testeLink' to="/cadastro"><em>cadastro</em></Link> agora mesmo!</p>
                 </section>
             </form>
 

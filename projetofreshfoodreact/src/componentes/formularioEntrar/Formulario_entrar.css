@@ -72,15 +72,20 @@ em{
     font-weight: bold;
 }
 
+.testeLink{
+    text-decoration: none;
+}
+
 .container_esqueceuSenha{
     text-align: center;
-    font-weight: bold;
-    margin: 14px 0;
+    margin: 30px 0;
 }
 
 .titulo_esqueceuSenha{
     color: #FE4617;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .texto_esqueceuSenha{
@@ -93,14 +98,24 @@ em{
 }
 
 .botao-finalizar_formLogin{
-    background: #FE4617;
+    background: #fe4517d7;
     color: #FFF;
     border: none;
-    padding: 5px 20px;
+    padding: 10px 20px;
     font-size: 18px;
     border-radius: 20px;
-    font-weight: bold;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.botao-finalizar_formLogin:hover{
+    padding: 10px 40px;
+    background: #fe4517b8;
+
+}
+.botao-finalizar_formLogin:active{
+    background: #fe4517fe;
+
 }
 
 @media (max-width: 900px){
