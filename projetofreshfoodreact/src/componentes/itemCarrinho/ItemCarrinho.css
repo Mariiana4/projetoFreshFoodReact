@@ -131,10 +131,12 @@
     width: 90%;
     margin: 50px auto;
     font-size: 25px;
-    background: #7171711d;
+    background: #f0efef;
     padding: 25px;
     border-radius: 5px;
     color: #333030;
+    position: sticky;
+    bottom: 0;
 }
 
 .container_totalCompra_preco{
