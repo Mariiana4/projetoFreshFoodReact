@@ -158,44 +158,6 @@ function Card_paginaFavoritos() {
             
                 </li>
 
-                <li class="card">
-                    <img class="image_card" src="/imagens/cardReceitas/receitas/imagens_receita/imagem_receita_rolo-lentilha.jpg" alt=""/>
-            
-                    <div class="container_informacoes">
-                        <div class="tag_icone-fav">
-                            <p class="tag">Vegetariano</p>
-                            <i class="fa-solid fa-heart" id='testeFavorito'></i>
-                        </div>
-            
-                        <h2 class="nome-receita">Rolo de lentilhas com compota de frutas vermelhas</h2>
-            
-                        <div class="container_icones">
-            
-                            <div class="icone_descricao" id="tempo">
-                                <img class="iconeCard" src="/imagens/cardReceitas/tempo_icone.svg" alt=""/>
-                                <p class="descricao_iconeCard">20 min</p>
-                            </div>
-                
-                            <img className="iconeCard" src="/imagens/cardReceitas/linha.png" alt=""/>
-
-                            <div class="icone_descricao">
-                                <img class="iconeCard" src="/imagens/cardReceitas/dificuldade_icone.jpg" alt=""/>
-                                <p class="descricao_iconeCard">Fácil</p>
-                            </div>
-
-                            <img className="iconeCard" src="/imagens/cardReceitas/linha.png" alt=""/>
-                    
-                            <div class="icone_descricao">
-                                <p class="quantidadePorcao_icone_descricao" id='testePorcao'>8</p>
-                                <img class="iconeCard" src="/imagens/cardReceitas/porcao_icone.svg" alt=""/>
-                                <p class="descricao_iconeCard">Porção</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                </li>
-                
-                
             </ul>
          </main>
     </>
