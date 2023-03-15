@@ -15,7 +15,7 @@ function Formulario_entrar() {
             event.preventDefault()
             const response = await fetch(``, {
                 method: 'post',
-                body: JSON.stringify(formData )
+                body: JSON.stringify(formData)
             })
             const json = await response.json()
             console.log(json)
